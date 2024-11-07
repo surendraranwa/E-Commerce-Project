@@ -1,0 +1,171 @@
+.item{
+    width: 350px;
+}
+
+.item img{
+    width: 350px;
+}
+
+.item p{
+    margin: 6px 0px;
+}
+
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+
+.item-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: 500;
+}
+
+@media(max-width : 1600px){
+    
+    .item{
+        width: 310px;
+    }
+    .item img{
+        width: 310px;
+    }
+    
+    .item-prices{
+        display: flex;
+        gap: 18px;
+    }
+    
+    .item-price-new{
+        font-size: 16px;
+    }
+    
+    .item-price-old{
+        font-size: 16px;
+    }
+}
+
+@media(max-width : 1400px){
+    
+    .item{
+        width: 290px;
+    }
+    .item img{
+        width: 290px;
+    }
+    
+    .item-prices{
+        display: flex;
+        gap: 16px;
+    }
+    
+    .item-price-new{
+        font-size: 16px;
+    }
+    
+    .item-price-old{
+        font-size: 16px;
+    }
+}
+
+@media(max-width : 1280px){
+    
+    .item{
+        width: 220px;
+    }
+    .item img{
+        width: 220px;
+    }
+    
+    .item-prices{
+        display: flex;
+        gap: 14px;
+    }
+    
+    .item-price-new{
+        font-size: 16px;
+    }
+    
+    .item-price-old{
+        font-size: 16px;
+    }
+}
+
+@media(max-width : 1020px){
+    
+    .item{
+        width: 175px;
+    }
+    .item img{
+        width: 175px;
+    }
+    
+    .item-prices{
+        display: flex;
+        gap: 14px;
+    }
+    
+    .item-price-new{
+        font-size: 14px;
+    }
+    
+    .item-price-old{
+        font-size: 14px;
+    }
+}
+
+@media(max-width : 800px){
+    
+    .item{
+        width: 110px;
+    }
+    .item img{
+        width: 110px;
+    }
+    
+    .item-prices{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .item-price-new{
+        font-size: 12px;
+    }
+    
+    .item-price-old{
+        font-size: 12px;
+    }
+}
+
+@media(max-width : 500px){
+    
+    .item{
+        width: 190px;
+    }
+    .item img{
+        width: 190px;
+    }
+    
+    .item-prices{
+        display: flex;
+    }
+    
+    .item-price-new{
+        font-size: 14px;
+    }
+    
+    .item-price-old{
+        font-size: 14px;
+    }
+}

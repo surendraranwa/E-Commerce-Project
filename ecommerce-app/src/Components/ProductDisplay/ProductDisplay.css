@@ -1,0 +1,495 @@
+.productdisplay{
+    display: flex;
+    margin: 0px 170px;
+}
+
+.productdisplay-left{
+    display: flex;
+    gap: 17px;
+}
+
+.productdisplay-left-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.productdisplay-left-img-list img{
+   height: 163px;
+}
+
+.productdisplay-left-img-main img{
+    width: 586px;
+    height: 700px;
+}
+
+.productdisplay-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1{
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.productdisplay-right-stars{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.productdisplay-right-prizes{
+    display: flex;
+    margin: 20px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.productdisplay-right-old-prires{
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-new-prires{
+    color: #ff4141;
+}
+
+.productdisplay-right-size h1{
+    margin-top: 5px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.productdisplay-right-sizes{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+}
+
+.productdisplay-right-sizes div{
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.productdisplay-right button{
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #ff4141;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.productdisplay-right-category{
+    margin-top: 10px;
+}
+
+.productdisplay-right-category span{
+    font-weight: 600;
+}
+
+@media(max-width: 1400px){
+    .productdisplay{
+        margin: 0px 60px;
+    }
+    
+    .productdisplay-left{
+        gap: 15px;
+    }
+    
+    .productdisplay-left-img-list{
+        gap: 10px;
+    }
+    
+    .productdisplay-left-img-list img{
+       height: 150px;
+    }
+    
+    .productdisplay-left-img-main img{
+        width: auto;
+        height: 625px;
+    }
+    
+    .productdisplay-right{
+        margin: 0px 40px;
+    }
+    
+    .productdisplay-right h1{
+        font-size: 30px;
+    }
+    
+    .productdisplay-right-stars{
+        margin-top: 12px;
+        gap: 5px;
+    }
+    
+    .productdisplay-right-prizes{
+        margin: 20px 0px;
+        gap: 30px;
+        font-size: 24px;
+    }
+    
+    .productdisplay-right-size h1{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    
+    .productdisplay-right-sizes{
+        margin: 30px 0px;
+        gap: 20px;
+    }
+    
+    .productdisplay-right-sizes div{
+        padding: 18px 24px;
+    }
+    
+    .productdisplay-right button{
+        padding: 20px 40px;
+        width: 200px;
+        font-size: 16px;
+    }
+    
+}
+
+@media(max-width: 1280px){
+    .productdisplay{
+        margin: 0px 30px;
+    }
+    
+    .productdisplay-left{
+        gap: 10px;
+    }
+    
+    .productdisplay-left-img-list{
+        gap: 10px;
+    }
+    
+    .productdisplay-left-img-list img{
+       height: 120px;
+    }
+    
+    .productdisplay-left-img-main img{
+        width: auto;
+        height: 510px;
+    }
+    
+    .productdisplay-right{
+        margin: 0px 40px;
+    }
+    
+    .productdisplay-right h1{
+        font-size: 25px;
+    }
+    
+    .productdisplay-right-stars{
+        margin-top: 12px;
+        gap: 5px;
+    }
+    
+    .productdisplay-right-prizes{
+        margin: 20px 0px;
+        gap: 30px;
+        font-size: 24px;
+    }
+    
+    .productdisplay-right-size h1{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    
+    .productdisplay-right-sizes{
+        margin: 30px 0px;
+        gap: 20px;
+    }
+    
+    .productdisplay-right-sizes div{
+        padding: 12px 20px;
+    }
+    
+    .productdisplay-right button{
+        padding: 20px 40px;
+        width: 200px;
+        font-size: 16px;
+    }
+    
+}
+
+
+@media(max-width: 1080px){
+    .productdisplay{
+        margin: 0px 10px;
+    }
+    
+    .productdisplay-left{
+        gap: 5px;
+    }
+    
+    .productdisplay-left-img-list{
+        gap: 5px;
+    }
+    
+    .productdisplay-left-img-list img{
+       height: 100px;
+    }
+    
+    .productdisplay-left-img-main img{
+        width: auto;
+        height: 415px;
+    }
+    
+    .productdisplay-right{
+        margin: 0px 20px;
+    }
+    
+    .productdisplay-right h1{
+        font-size: 20px;
+    }
+    
+    .productdisplay-right-stars{
+        margin-top: 10px;
+        gap: 5px;
+    }
+    
+    .productdisplay-right-prizes{
+        margin: 10px 0px;
+        gap: 20px;
+        font-size: 20px;
+    }
+    
+    .productdisplay-right-size h1{
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    
+    .productdisplay-right-sizes{
+        margin: 20px 0px;
+        gap: 10px;
+    }
+    
+    .productdisplay-right-sizes div{
+        padding: 8px 15px;
+    }
+    
+    .productdisplay-right button{
+        padding: 15px 10px;
+        width: 150px;
+        font-size: 14px;
+    }
+    
+}
+
+@media(max-width: 1080px){
+    .productdisplay{
+        margin: 0px 10px;
+    }
+    
+    .productdisplay-left{
+        gap: 5px;
+    }
+    
+    .productdisplay-left-img-list{
+        gap: 5px;
+    }
+    
+    .productdisplay-left-img-list img{
+       height: 100px;
+    }
+    
+    .productdisplay-left-img-main img{
+        width: auto;
+        height: 415px;
+    }
+    
+    .productdisplay-right{
+        margin: 0px 20px;
+    }
+    
+    .productdisplay-right h1{
+        font-size: 20px;
+    }
+    
+    .productdisplay-right-stars{
+        margin-top: 10px;
+        gap: 5px;
+    }
+    
+    .productdisplay-right-prizes{
+        margin: 10px 0px;
+        gap: 20px;
+        font-size: 20px;
+    }
+    
+    .productdisplay-right-size h1{
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    
+    .productdisplay-right-sizes{
+        margin: 20px 0px;
+        gap: 10px;
+    }
+    
+    .productdisplay-right-sizes div{
+        padding: 8px 15px;
+    }
+    
+    .productdisplay-right button{
+        padding: 15px 10px;
+        width: 150px;
+        font-size: 14px;
+    }
+    
+}
+
+
+@media(max-width: 800px){
+    .productdisplay{
+        margin: 0px 10px;
+    }
+    
+    .productdisplay-left{
+        gap: 0px;
+        flex-direction: column-reverse;
+    }
+    
+    .productdisplay-left-img-list{
+        gap: 5px;
+        flex-direction: row;
+    }
+    
+    .productdisplay-left-img-list img{
+       height: 70px;
+    }
+    
+    .productdisplay-left-img-main img{
+        width: auto;
+        height: 300px;
+    }
+    
+    .productdisplay-right{
+        margin: 0px 10px;
+    }
+    
+    .productdisplay-right h1{
+        font-size: 14px;
+    }
+    
+    .productdisplay-right-stars{
+        margin-top: 10px;
+        gap: 5px;
+    }
+    
+    .productdisplay-right-prizes{
+        margin: 10px 0px;
+        gap: 20px;
+        font-size: 16px;
+    }
+    
+    .productdisplay-right-size h1{
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    
+    .productdisplay-right-sizes{
+        margin: 20px 0px;
+        gap: 5px;
+    }
+    
+    .productdisplay-right-sizes div{
+        padding: 4px 8px;
+    }
+    
+    .productdisplay-right button{
+        padding: 15px 5px;
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .productdisplay-right-category{
+        font-size: 12px;
+    }
+    
+}
+
+@media(max-width: 500px){
+    .productdisplay{
+        margin: 0px 10px;
+        flex-direction: column;
+    }
+    
+    .productdisplay-left{
+        gap: 10px;
+        flex-direction: row;
+    }
+    
+    .productdisplay-left-img-list{
+        gap: 5px;
+        flex-direction: column;
+    }
+    
+    .productdisplay-left-img-list img{
+       height: 100px;
+    }
+    
+    .productdisplay-left-img-main img{
+        width: auto;
+        height: 415px;
+    }
+    
+    .productdisplay-right{
+        margin: 10px 10px;
+    }
+    
+    .productdisplay-right h1{
+        font-size: 20px;
+    }
+    
+    .productdisplay-right-stars{
+        margin-top: 10px;
+        gap: 5px;
+    }
+    
+    .productdisplay-right-prizes{
+        margin: 10px 0px;
+        gap: 20px;
+        font-size: 20px;
+    }
+    
+    .productdisplay-right-size h1{
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    
+    .productdisplay-right-sizes{
+        margin: 20px 0px;
+        gap: 5px;
+    }
+    
+    .productdisplay-right-sizes div{
+        padding: 10px 20px;
+    }
+    
+    .productdisplay-right button{
+        padding: 20px 20px;
+        width: 180px;
+        font-size: 16px;
+    }
+
+    .productdisplay-right-category{
+        font-size: 18px;
+    }
+    
+}
