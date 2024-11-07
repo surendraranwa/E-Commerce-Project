@@ -7,12 +7,13 @@ const path = require('path');
 const cors = require('cors');
 const { type } = require('os');
 const jwt = require('jsonwebtoken');
+require('dotenv').config();
 
 app.use(express.json());
 app.use(cors());
 
 // Database Connection With MongoDB
-mongoose.connect("mongodb+srv://surendraranwa20:12345678Suri@cluster0.3ga45.mongodb.net/e-commerce");
+mongoose.connect(process.env.MONGO_URI);
 
 // API Creation
 app.get('/', (req, res) => {
